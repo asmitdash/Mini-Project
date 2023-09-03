@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App - Quiz</title>
+</head>
+<body>
+    <h1>Quiz on <span id="chapterName"></span></h1>
+    <!-- Quiz questions and options can be dynamically generated here -->
+    <a href="/chapter">Back to Chapters</a>
+    <script>
+        // You can use JavaScript to dynamically set the chapter name based on the URL query parameter.
+        const urlParams = new URLSearchParams(window.location.search);
+        const chapterName = urlParams.get('chapter');
+        document.getElementById('chapterName').textContent = chapterName;
+    </script>
+</body>
+</html>

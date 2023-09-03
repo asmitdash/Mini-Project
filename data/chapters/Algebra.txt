@@ -1,0 +1,37 @@
+1. Question: Solve for x: 3x - 7 = 14
+   - A) x = 7
+   - B) x = 5
+   - C) x = 8
+   - D) x = 21
+   - Correct Answer: C) x = 8
+
+2. Question: What is the result of (2x + 5)(3x - 4)?
+   - A) 6x^2 + 7x - 20
+   - B) 6x^2 + 2x - 20
+   - C) 6x^2 + 7x + 20
+   - D) 6x^2 + 2x + 20
+   - Correct Answer: A) 6x^2 + 7x - 20
+
+3. Question: If a = 4 and b = 6, what is the value of 2a + 3b?
+   - A) 18
+   - B) 24
+   - C) 26
+   - D) 30
+   - Correct Answer: D) 30
+
+4. Question: Solve the equation: 2(x - 3) = 10
+   - A) x = 5
+   - B) x = 4
+   - C) x = 8
+   - D) x = 6
+   - Correct Answer: D) x = 6
+
+5. Question: What is the formula to calculate the slope (m) of a line given two points (x1, y1) and (x2, y2)?
+   - A) m = (x1 + x2) / (y1 + y2)
+   - B) m = (y2 - y1) / (x2 - x1)
+   - C) m = (x2 - x1) / (y2 + y1)
+   - D) m = (y1 - y2) / (x1 - x2)
+   - Correct Answer: B) m = (y2 - y1) / (x2 - x1)
+
+
+

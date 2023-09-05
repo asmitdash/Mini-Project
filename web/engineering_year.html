@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Year</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        .button-container {
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .button {
+            display: block;
+            width: 150px;
+            padding: 15px;
+            font-size: 18px;
+            background-color: #0074d9;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px auto;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="#" class="button" onclick="redirectToPage('FY')">FY</a>
+        <a href="#" class="button" onclick="redirectToPage('SY')">SY</a>
+        <a href="#" class="button" onclick="redirectToPage('TY')">TY</a>
+        <a href="#" class="button" onclick="redirectToPage('LY')">LY</a>
+    </div>
+
+    <script>
+        function redirectToPage(year) {
+            // Redirect to a specific page or perform an action based on the selected year
+            alert("You selected " + year + " year.");
+            // You can add code here to handle the selected year as needed
+        }
+    </script>
+</body>
+</html>
